@@ -1,6 +1,22 @@
 # recall-rc
 A shell script for persistently storing and recalling previously entered commands.
 
+Example:
+
+```
+> echo "Hello"
+> recall save
+> recall 0
+Hello
+> echo "Goodbye"
+> recall save
+> recall list
+0. echo "Hello"
+1. echo "Goodbye"
+> recall 1
+Goodbye
+```
+
 add to your `.zshrc`, `.bash_profile`, or `.bashrc` with one line: `source ~/.recall-rc`
 
 Use it by entering `recall X` into your command line, where `X` is one of the following commands:
