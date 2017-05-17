@@ -1,5 +1,5 @@
 # recall-rc
-A shell script for persistently storing and recalling previously entered commands. Usually, people copy frequent commands into some file and then copy/paste them into the terminal. With `recall`, the commands can be stored persistently, but also the can be re-invoked straight from the command line. Much easier than copy/pasting frequent commands between files or attempting to navigate a long history.
+A shell script for persistently storing and recalling previously entered commands. Developers often copy commands that they want to remember into some file and then copy/paste them into the terminal. With `recall`, the commands can be stored persistently and re-invoked directly from the command line. Much easier than copy/pasting commands between files or attempting to navigate a long history.
 
 Example:
 
