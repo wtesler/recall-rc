@@ -5,10 +5,12 @@ Example:
 
 ```
 > echo "Hello"
+Hello
 > recall save
 > recall 0
 Hello
 > echo "Goodbye"
+Goodbye
 > recall save
 > recall list
 0. echo "Hello"
