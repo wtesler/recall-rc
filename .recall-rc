@@ -10,9 +10,9 @@ recall() {
     elif [[ $1 == "remove" ]]
     	then _recall_remove $2
     elif [[ $1 == "" ]]
-        then _recall_help
-	else
-		_recall_enter $1
+       	then _recall_help
+    else
+        _recall_enter $1
     fi
 }
 
