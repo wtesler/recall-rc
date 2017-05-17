@@ -3,7 +3,7 @@ A shell script for persistently storing and recalling previously entered command
 
 add to your `.zshrc`, `.bash_profile`, or `.bashrc` with one line: `source ~/.recall-rc`
 
-It has the following commands:
+Use it by entering `recall X` into your command line, where `X` is one of the following commands:
 
       `save` - Save the previously entered command. i.e. `recall save`
       `list` - Show all saved entries. i.e. `recall list`
